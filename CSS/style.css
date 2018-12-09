@@ -1,0 +1,56 @@
+/* Selector {
+  Property: value;
+} */
+
+* {
+  text-align: right;
+}
+
+li:hover {
+  border: 1px solid blue;
+}
+
+body {
+  background-image: url(backgroundimage.png);
+  background-size: auto;
+}
+
+h2 + p {
+  color: green;
+  text-align: center;
+  border: 5px solid rgba(136, 204, 136, 0.5);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* This doesnt apply because the above selector is more specific */
+p {
+  text-decoration: overline;
+  text-transform: uppercase;
+  line-height: 40px;
+  font-style: italic;
+  font-size: 125%;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+.webtext:hover {
+  border: 5px dashed green;
+}
+
+.active {
+  color: cyan;
+}
+
+#div1 {
+  background: rgba(0,0,100,0.5);
+}
+
+#div2 {
+  background: rgba(0,100,0,0.5);
+}

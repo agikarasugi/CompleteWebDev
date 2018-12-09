@@ -1,0 +1,10 @@
+div {
+  background:red;
+  position:absolute;
+  color:#fff;
+  top:50%;
+  left:10%;
+  right:10%;
+  padding:15px;
+  transform: translate(0%,-50%);
+}

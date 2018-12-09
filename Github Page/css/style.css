@@ -1,0 +1,30 @@
+body {
+    background-color: #2F4073;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.intro {
+    background: inherit;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    right: 10%;
+    padding: 15px;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(0%, -50%);
+
+    text-align: center;
+    color: #FFF2AA;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+h2 {
+    font-weight: lighter;
+}
