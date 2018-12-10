@@ -1,3 +1,25 @@
 h2 {
   color: blue;
 }
+
+.boxmodel {
+  border: 5px solid red;
+  display: inline-block;
+  /* padding: top right bottom right */
+  /* padding: top bottom */
+  padding: 5px 20px;
+  margin: 0 20px;
+
+  width: 33px;
+  height: 55px;
+}
+
+p {
+  font-size: 20px;
+}
+
+span {
+  /* em is the size relative n times of the size of parent */
+  /* rem is the size relative to the root element (html) */
+  font-size: 5rem;
+}

@@ -1,0 +1,39 @@
+p {
+  color: green;
+  text-align: justify;
+  border: 5px solid rgba(136, 204, 136, 0.5);
+  cursor: pointer;
+  font-weight: bold;
+  font-family: Arial;
+  text-decoration: overline;
+  text-transform: uppercase;
+  line-height: 40px;
+  font-style: italic;
+  font-size: 125%;
+  font-family: Arial, sans-serif;
+  color: #3495db;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+img {
+  float: left;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+}
+
+body {
+  background-image: url(backgroundimage.png);
+  background-size: auto;
+}
+
+* {
+  text-align: right;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
